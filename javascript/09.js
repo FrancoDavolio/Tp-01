@@ -1,6 +1,8 @@
 let frase = prompt("Escriba una frase de no mas de 12 caracteres");
+frase = frase.toLowerCase
 
 document.write("Estas son las vocales que tiene tu frase: ")
+
 if (frase.charAt("0") === "a" || frase.charAt("0") === "e" || frase.charAt("0") === "i" || frase.charAt("0") === "o" || frase.charAt("0") === "u") {
    document.write(frase.charAt(0))
 }
